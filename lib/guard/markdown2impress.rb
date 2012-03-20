@@ -4,7 +4,7 @@ require 'guard/guard'
 module Guard
   class Markdown2Impress < Guard
 
-    VERSION = '0.0.2'
+    VERSION = '0.0.3'
 
     # Print the result of the command, if there is a result
     # to be printed. (see README.md)
