@@ -1,4 +1,4 @@
-# Guard-Markdown2Impress
+# guard-markdown2impress
 
 This little addition to guard allows you to run [markdown2impress](https://github.com/yoshiki/markdown2impress)
 commands when files are modified.
