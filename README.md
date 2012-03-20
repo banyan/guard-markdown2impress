@@ -20,4 +20,4 @@ And then add a basic setup to your Guardfile:
 Then what only you have to do is just watch:
 
     $ guard start
-
+    $ vi example.md

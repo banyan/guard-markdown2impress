@@ -4,5 +4,6 @@
 #  https://github.com/yoshiki/markdown2impress
 #
 guard 'markdown2impress' do
-  watch(/README.md/i) {|m| `markdown2impress.pl #{m[0]}` }
+  extensions = %w(md markdown mkd mdown mkdn mark).join("|")
+  watch(/.+\.#{extensions}/i) {|m| `markdown2impress.pl #{m[0]}` }
 end
