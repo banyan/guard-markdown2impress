@@ -14,6 +14,7 @@ Install the gem with:
 
 And then add a basic setup to your Guardfile:
 
+    $ cd /path/to/your/impress-directory
     $ guard init markdown2impress
 
 Then what only you have to do is just watch:
