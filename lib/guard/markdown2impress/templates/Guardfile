@@ -1,0 +1,8 @@
+# Add files and command option to this file, like the example:
+#  watch(/README.md/i) {|m| `markdown2impress.pl --width=1000 #{m[0]}` }
+# See more detail:
+#  https://github.com/yoshiki/markdown2impress
+#
+guard 'markdown2impress' do
+  watch(/README.md/i) {|m| `markdown2impress.pl #{m[0]}` }
+end
